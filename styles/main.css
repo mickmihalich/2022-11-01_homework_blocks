@@ -1,0 +1,31 @@
+.external_block1, .external_block2, .external_block3, .external_block4 {
+    margin: 2em;
+    border-radius: 1em;
+    border: 1px double rgb(255, 109, 168);
+    padding: 1em;
+    background-color: azure;
+    display: flex;
+    
+}
+
+.internal {
+    background-color: cornsilk;
+    border: 1px solid blueviolet;
+    padding: 0.5em;
+    margin: 0.2em;
+    border-radius: 0.4em;
+}
+
+
+.external_block1 {
+    justify-content: center;
+}
+.external_block2 {
+    justify-content: flex-end;
+}
+.external_block3 {
+    justify-content: space-around;
+}
+.external_block4 {
+    justify-content: space-between;
+}
