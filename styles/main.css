@@ -1,8 +1,8 @@
 .external_block1, .external_block2, .external_block3, .external_block4 {
-    margin: 2em;
-    border-radius: 1em;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
     border: 1px double rgb(255, 109, 168);
-    padding: 1em;
+    padding: 0.5rem;
     background-color: azure;
     display: flex;
     
@@ -11,9 +11,9 @@
 .internal {
     background-color: cornsilk;
     border: 1px solid blueviolet;
-    padding: 0.5em;
-    margin: 0.2em;
-    border-radius: 0.4em;
+    padding: 0.3rem;
+    margin: 0.2rem;
+    border-radius: 0.3rem;
 }
 
 
@@ -28,4 +28,42 @@
 }
 .external_block4 {
     justify-content: space-between;
+}
+
+.noflex {
+    border: 1px solid black;
+    margin: 0.2rem;
+    padding: 0.2rem;
+    
+}
+
+.width30inline {
+    width: 20vw; /* not worked in inline */
+    border: 1px solid red;
+    margin: 0.2rem;  /* not worked in inline */
+    padding: 0.2rem 0.2rem 0.2rem 10vw;
+    color: red;
+    display: inline;
+}
+
+.width30inline_block {
+    display: inline-block;
+    width: 31vw;
+    border: 1px solid blueviolet;
+    margin: 0.2rem;
+    padding: 0.2rem 0.2rem 0.2rem 10vw;
+    color: blueviolet;
+}
+.width30inline_block_boxsizing {
+    display: inline-block;
+    width: 31vw;
+    border: 1px solid blueviolet;
+    margin: 0.2rem;
+    padding: 0.2rem 0.2rem 0.2rem 10vw;
+    color: blueviolet;
+    box-sizing: border-box;
+}
+p {
+    text-align: center;
+    color: lime;
 }
